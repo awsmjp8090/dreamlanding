@@ -12,15 +12,16 @@ export function Footer() {
             <Link to="/" className="flex items-center space-x-3 group">
               <div className="bg-gradient-to-r from-blue-600 to-indigo-600 px-4 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-all duration-300 shadow-lg">
                 <div className="flex items-center space-x-2">
-                  <span className="text-2xl text-white font-bold">Dream</span>
                   <img 
                     src="/images/icons/awwings.png" 
                     alt="Angel Icon" 
-                    className="w-8 h-8"
+                    className="w-8 h-8 mr-2"
                     loading="eager"
                     decoding="async"
                   />
-                  <span className="text-2xl text-white font-normal">Landing</span>
+                  <span className="text-2xl text-white">
+                    <span className="font-bold">Dream</span><span className="font-normal italic">Livin</span>
+                  </span>
                 </div>
               </div>
             </Link>
@@ -91,7 +92,7 @@ export function Footer() {
         <div className="border-t border-gray-200 mt-16 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <p className="text-gray-600 text-center md:text-left">
-              © {new Date().getFullYear()} DreamLanding Ltd. All rights reserved.
+              © {new Date().getFullYear()} <span className="font-bold">Dream</span><span className="italic">Livin</span> Ltd. All rights reserved.
             </p>
             <div className="flex items-center space-x-6 mt-4 md:mt-0">
               <Link to="/privacy" className="text-gray-600 hover:text-blue-600 transition-colors">

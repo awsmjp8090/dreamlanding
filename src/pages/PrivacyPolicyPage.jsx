@@ -43,7 +43,7 @@ export function PrivacyPolicyPage() {
         <section>
           <h2 className="text-xl font-semibold mb-3">5. Contact Us</h2>
           <p className="text-gray-600">
-            If you have any questions about this Privacy Policy, please contact us at info@faithfulproperties.co.uk.
+            If you have any questions about this Privacy Policy, please contact us at info@dreamlivin.co.uk.
           </p>
         </section>
       </div>

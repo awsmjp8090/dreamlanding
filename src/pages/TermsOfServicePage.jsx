@@ -16,7 +16,7 @@ export function TermsOfServicePage() {
         <section>
           <h2 className="text-xl font-semibold mb-3">2. Services</h2>
           <p className="text-gray-600">
-            Dream Landing provides accommodation, and career guidance. We reserve the right to modify or discontinue any service without notice.
+            Dream<span className="italic">Livin</span> provides accommodation, and career guidance. We reserve the right to modify or discontinue any service without notice.
           </p>
         </section>
 
@@ -42,14 +42,14 @@ export function TermsOfServicePage() {
         <section>
           <h2 className="text-xl font-semibold mb-3">5. Limitation of Liability</h2>
           <p className="text-gray-600">
-            Dream Landing shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of our services.
+            Dream<span className="italic">Livin</span> shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of our services.
           </p>
         </section>
 
         <section>
           <h2 className="text-xl font-semibold mb-3">6. Contact Information</h2>
           <p className="text-gray-600">
-            For any questions regarding these Terms of Service, please contact us at info@dreamlanding.co.uk.
+            For any questions regarding these Terms of Service, please contact us at info@dreamlivin.co.uk.
           </p>
         </section>
       </div>

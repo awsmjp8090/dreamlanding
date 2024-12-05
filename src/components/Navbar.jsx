@@ -34,15 +34,16 @@ export function Navbar() {
               isScrolled ? 'shadow-md' : 'shadow-lg shadow-blue-500/30'
             }`}>
               <div className="flex items-center space-x-2">
-                <span className="text-3xl text-white font-bold">Dream</span>
                 <img 
                   src="/images/icons/awwings.png"
                   alt="Angel Icon" 
-                  className="w-10 h-10"
+                  className="w-10 h-10 mr-2"
                   loading="eager"
                   decoding="async"
                 />
-                <span className="text-3xl text-white font-normal">Landing</span>
+                <span className="text-3xl text-white">
+                  <span className="font-bold">Dream</span><span className="font-normal italic">Livin</span>
+                </span>
               </div>
             </div>
           </Link>

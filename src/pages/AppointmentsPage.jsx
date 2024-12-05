@@ -63,7 +63,7 @@ export function AppointmentsPage() {
       const userEmailParams = {
         to_email: formattedData.email,
         to_name: `${formattedData.firstName} ${formattedData.lastName}`,
-        from_name: 'DreamLanding',
+        from_name: 'DreamLivin',
         date: format(data.date, 'MMMM d, yyyy'),
         time: data.time,
         message: 'Thank you for scheduling with us.'

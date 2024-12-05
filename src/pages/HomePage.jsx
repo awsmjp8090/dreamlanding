@@ -17,8 +17,8 @@ export function HomePage() {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-blue-900/50" />
         <div className="relative h-full flex flex-col items-center justify-center text-center px-4">
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-            Welcome to DreamLanding
+          <h1 className="text-5xl md:text-7xl text-white mb-6">
+            Welcome to <span className="font-bold">Dream</span><span className="italic">Livin</span>
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl">
             We provide stress-free accommodation and career guidance services for international students in the UK
@@ -31,7 +31,7 @@ export function HomePage() {
         <div className="max-w-6xl mx-auto px-4 flex flex-col items-center text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">About Us</h2>
           <p className="text-lg text-blue-100 max-w-2xl mb-16">
-            We understand that starting your journey in the UK can be challenging. That's why DreamLanding offers a comprehensive service to help you find the perfect accommodation and start your career path.
+            We understand that starting your journey in the UK can be challenging. That's why <span className="font-bold">Dream</span><span className="italic">Livin</span> offers a comprehensive service to help you find the perfect accommodation and start your career path.
           </p>
           
           <div className="flex items-center justify-center space-x-48 relative">
